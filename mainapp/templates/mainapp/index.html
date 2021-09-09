@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+
+  <body>
+
+
+<br><br><br><br><br>
+<div>
+    <div style="width:45%">
+        <div style="display:flex;flex-flow:row wrap;margin-left: 60px;">
+            <div  style="/* border-bottom: 5px solid green; */border-right: 5px solid orangered;border-left: none;border-top:none;background-color:transparent;position: relative;display: flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border-radius: .25rem;padding-left:50px;padding-right:50px;">
+              <center>
+                <img src="{{photo}}" class="img-fluid mx-auto" style="height:90px;width:90px; border-radius:100px;" alt="Card image cap">
+              </center>
+              <div style="flex: 1 1 auto;padding: 1rem 1rem;">
+                <h2 class="card-title text-center" style="margin-bottom: .5rem; text-align: center; font-size: 16px;">{{employee.full_name}}</h2>
+                <p class="card-text text-center" style="text-align:center;"><span style="background-color: #fe730c; padding:5px;color:white;font-size:15px;"><b>{{employee.department}} {{employee.designation}}</b></span></p>
+                
+                <!--<p class="card-text text-center"><small class="text-muted">Dunder Mifflin Company</small></p> -->
+              </div>
+            </div>
+            <div style="border-top:none;background-color:transparent;position: relative;display: flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border-radius: .25rem;padding-left:50px;padding-right:50px;">
+              
+              <div style="flex: 1 1 auto;padding: 1rem 1rem;">
+                <!-- <h5 class="card-title text-center">DWIGHT SCHRUTE</h5>
+                <p class="card-text text-center"><b>Regional Manager</b></p> -->
+                <p class="card-text text-center" style="font-size: 13px;"><span style="color:#fe730c; font-size:13px;"><b>Email</b></span>: <a href="mailto:{{employee.email}}">{{employee.email}}</a></p>
+                <p class="card-text text-center" style="font-size: 13px;"><span style="color:#fe730c; font-size:13px;"><b>Phone</b></span>: +{{employee.phone_number}}</p>
+                <p class="card-text text-center" style="font-size: 13px;"><span style="color:#fe730c; font-size:13px;"><b>Website</b></span>: {{website}}</p>
+                <p class="card-text text-center" style="font-size: 13px;"><span style="color:#fe730c; font-size:13px;"><b>Location</b></span>: Scranton, Pennsylvania</p>
+                <br>
+                <center>
+                    <div class="">
+                        <div style="display: inline-block;"><img src="https://github.com/Zalego-development/CompanyLogos/blob/main/icons8-facebook-circled-30.png?raw=true"></div>
+                        <div style="display: inline-block;"><img src="https://github.com/Zalego-development/CompanyLogos/blob/main/icons8-instagram-logo-30.png?raw=true"></div>
+                        <div style="display: inline-block;"><img src="https://github.com/Zalego-development/CompanyLogos/blob/main/icons8-twitter-circled-30.png?raw=true"></div>
+                        <div style="display: inline-block;"><img src="https://github.com/Zalego-development/CompanyLogos/blob/main/icons8-youtube-play-button-30.png?raw=true"></div>
+                    </div>
+                </center>
+              </div>
+            </div>
+            <!-- <div class="card py-3" style="border-bottom: 5px solid orangered; border-top:none;border-right: none;background-color:transparent;position: relative;display: flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border-radius: .25rem;; padding-left:50px;padding-right:50px;">
+                
+              <div class="card-body" style="flex: 1 1 auto;padding: 1rem 1rem;">
+                
+              </div>
+            </div> -->
+          </div>
+          <div>
+            <img src="{{companyLogo}}" class="img-fluid mx-auto" style="height: 70px;max-width:auto;padding-top: 20px;position:absolute;left:15%">
+          </div>
+          
+    </div>
+
+    
+
+</div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
