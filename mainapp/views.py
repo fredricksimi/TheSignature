@@ -15,7 +15,7 @@ def get_data():
     url = "https://hrmis.zalegoacademy.ac.ke/zalegoemp/public/api/apiLogin"
     headers = CaseInsensitiveDict()
     headers["Content-Type"] = "application/x-www-form-urlencoded"
-    data = "email=fkemosi@gmail.com&password=@Voldermort1997"
+    data = "email=EMAIL&password=PASSWORD"
     resp = requests.post(url, headers=headers, data=data)
 
     my_token = json.loads(resp.text)
